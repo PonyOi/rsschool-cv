@@ -20,19 +20,13 @@ Then I've started police career. I've been serving since 2013. This job has made
 -----
 ## Code exaple
 *in progress*
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>JavaScript Hello World Example</title>
-    <script>
-        alert('Hello, World!');
-    </script>
-</head>
-<body>
-</body>
-</html>
+```javascript
+const func = (num) => {
+  if (num > 0) {
+    return num - 1;
+  }
+  return num + 1;
+};
 ```
 -----
 ## Experience
@@ -45,6 +39,6 @@ Far East Home Ministry Law Istitute (2014-2020)
 ## Languages
 * Russian - native
 * English - aadvanced (according [online-test ](https://www.efset.org/quick-check/))
-![Test result](https://ibb.co/8dmfgHG)
+
 But honestly it seems too optimistic, I suppose my english level is *upper intermediate*.
 
