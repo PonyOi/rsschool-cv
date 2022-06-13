@@ -15,6 +15,7 @@
 
 body {
   font-family: BarloCondensed;
+  font-size: 18px;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -30,7 +31,12 @@ body {
   
   ;
 }
-
+.main {
+    display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 100%;
+}
 h1 {
    font-family: FjallaOne;
    color: darkblue;
@@ -43,11 +49,19 @@ h2 {
 html {
     scroll-behavior: smooth; 
   }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
+.section {
+      width: 50$;
+  }
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -71,11 +85,6 @@ html {
 .test_result {
     width: 300px;
 }
-
-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
   
   .section {
     width: 50%;
@@ -98,9 +107,14 @@ container {
     background-color: darkgray;
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
-    width: 50px;
+    width: 100px;
+    padding-left: 27px;
 }
+
+
 
