@@ -1,0 +1,171 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    
+  }
+  
+  .wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+  }
+
+
+  @font-face {
+      font-family: 'Marga-Bold';
+      src: url(../asset/Fonts/Magra-Bold.ttf);
+  }
+
+  @font-face {
+      font-family: 'Red-Hat';
+      src: url(../asset/Fonts/RedHatText-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: 'Aleo';
+    src: url(../asset/Fonts/Aleo-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Aleo-italic';
+  src: url(../asset/Fonts/Aleo-Italic.ttf);
+}
+
+/* Header + search bar*/
+
+  .planyourtrip {
+    background-image: url(../asset/Img/planyourtrip.jpg);     
+    background-repeat: no-repeat;  
+    width: 100%;
+    height: 765px;
+    color: #ffffff;
+ 
+  }
+  .header {
+    background: hsla(11, 85%, 65%, 0.7);
+    box-shadow: 0px 4px 4px 0px #0D606F80;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    
+}
+
+  .logoimg {
+    width: 215px;
+    height: 28px;
+  }
+  .nav {
+    width: 527px;
+    height: 21px;
+  }
+
+  .navul {
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+
+  }
+
+  .nav-link {
+    transition: .3s;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Red-Hat';
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;    
+    gap: 42px;
+    margin-bottom: 34px;
+    
+}  
+
+.login {
+  position: relative;
+
+
+}
+
+.buttonlogin {
+  font: normal 500 16px 'Red-Hat';
+  color: #ffffff;
+  background-color:#0D606F;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 41px;
+}
+
+.preview {
+  height: 422px;
+  width: 892px;
+  margin-left: 120px;
+  margin-top: 32px; 
+  padding: 46px;
+}
+
+.explore {
+  font-family:'Aleo';
+  font-size: 80px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0px 0px 46px 0px;
+  }
+
+.previewspan {
+  font-family: 'Aleo-italic';
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 46px 0px 46px 0px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 892px;
+  height: 95px;
+  background: #FFFFFFB2;
+  border-radius: 16px;
+}
+
+::placeholder {
+  font-family: 'Aleo-italic';
+  font-size: 24px;
+  color: #F2785C;
+}
+
+input {
+  border: none;
+  background: none;
+  width: 560px;
+  height: 22px;
+}
+
+.startbtn {
+  width: 228px;
+  height: 59px;
+  background-color: #0D606F;
+  color: #ffffff;
+  font-family: 'Red-hat';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+/* Main Section 1 */
+
+.steps {
+  width: 1177px;
+  height: 247px;
+}
+
+
